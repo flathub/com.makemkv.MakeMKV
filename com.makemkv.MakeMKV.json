@@ -65,9 +65,6 @@
         "--enable-libvpx",
         "--enable-libx264"
       ],
-      "post-install": [
-        "chrpath -d /app/bin/ffmpeg"
-      ],
       "cleanup": [
         "/share/ffmpeg/examples"
       ],
