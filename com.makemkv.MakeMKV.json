@@ -91,7 +91,8 @@
         "DESTDIR=/"
       ],
       "post-install": [
-        "install -Dp -m 644 com.makemkv.MakeMKV.appdata.xml --target-directory=/app/share/appdata"
+        "install -Dp -m 644 com.makemkv.MakeMKV.appdata.xml --target-directory=/app/share/appdata",
+        "install -Dp -m 644 License.txt --target-directory=/app/share/licenses/com.makemkv.MakeMKV"
       ],
       "sources" : [
         {
@@ -113,7 +114,8 @@
         /* NOTE: author allows redistribution as long as eula is referenced in package description */
         "mkdir -p tmp",
         "echo accepted > tmp/eula_accepted",
-        "make install DESTDIR=/ PREFIX=/app"
+        "make install DESTDIR=/ PREFIX=/app",
+        "install -Dp -m 644 src/eula_en_linux.txt --target-directory=/app/share/licenses/com.makemkv.MakeMKV"
       ],
       "sources" : [
         {
