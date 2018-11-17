@@ -47,58 +47,48 @@
   <releases>
     <release version="1.14.1" date="2018-09-11">
       <description>
-        <p>
-          <ul>
-            <li>Bug Fixes
-            <ul>
-              <li>MakeMKV could crash during non-decrypted full disc
-              backup</li>
-              <li>Some discs caused extensive reads and very slow
-              operation at the start of MKV file creation</li>
-            </ul>
-            </li>
-          </ul>
-        </p>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>MakeMKV could crash during non-decrypted full disc backup</li>
+          <li>Some discs caused extensive reads and very slow operation at the start of MKV file creation</li>
+        </ul>
       </description>
     </release>
     <release version="1.14.0" date="2018-05-11">
       <description>
+        <p>New Features:</p>
         <ul>
           <li>Added support for AACS v66</li>
           <li>MakeMKV now extracts closed captions and saves them as text subtitles</li>
           <li>New video processing engine, MakeMKV should be much more tolerant for MPEG files with errors (BDAV)</li>
           <li>libmmbd: Added compatibility for latest libaacs API (Kodi no longer crashes)</li>
           <li>Small miscellaneous improvements</li>
-          <li>Bug fixes for 1.12.3 regressions:
-          <ul>
-            <li>With some discs MKV creation failed with DBG_ASSERT or DEBUG_CODE 45045000</li>
-            <li>With 3D blu-ray invalid hashcheck errors were produced</li>
-            <li>Audio transcoding could fail with newer ffmpeg versions</li>
-          </ul>
-          </li>
-          <li>Bug fixes:
-          <ul>
-            <li>MKV creation failed for BDAV discs authored in a certain way</li>
-            <li>Transcoding to AC3 displayed incorrectly with custom conversion profiles</li>
-            <li>MakeMKV GUI could crash on exit</li>
-            <li>MakeMKV could hang at the very end of MKV file creation in some rare cases</li>
-            <li>Linux: Fixed complilation errors with ffmpeg 4</li>
-          </ul>
-          </li>
-          <li>Expert mode features:
-          <ul>
-            <li>Default output file name can be customized using template</li>
-            <li>VC1 video can be saved as raw elementary stream, without
-            FOURCC AVI encapsulation</li>
-          </ul>
-          </li>
-          <li>Obsolete features:
-          <ul>
-            <li>Removed UPNP streaming (Use VLC or Kodi with libmmbd instead)</li>
-            <li>Linux: Removed mmdtsdec/libdcadec (Use latest ffmpeg
-            instead)</li>
-          </ul>
-          </li>
+        </ul>
+        <p>Bug fixes for 1.12.3 regressions:</p>
+        <ul>
+          <li>With some discs MKV creation failed with DBG_ASSERT or DEBUG_CODE 45045000</li>
+          <li>With 3D blu-ray invalid hashcheck errors were produced</li>
+          <li>Audio transcoding could fail with newer ffmpeg versions</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>MKV creation failed for BDAV discs authored in a certain way</li>
+          <li>Transcoding to AC3 displayed incorrectly with custom conversion profiles</li>
+          <li>MakeMKV GUI could crash on exit</li>
+          <li>MakeMKV could hang at the very end of MKV file creation in some rare cases</li>
+          <li>Linux: Fixed complilation errors with ffmpeg 4</li>
+        </ul>
+        <p>Expert mode features:</p>
+        <ul>
+          <li>Default output file name can be customized using template</li>
+          <li>VC1 video can be saved as raw elementary stream, without
+          FOURCC AVI encapsulation</li>
+        </ul>
+        <p>Obsolete features:</p>
+        <ul>
+          <li>Removed UPNP streaming (Use VLC or Kodi with libmmbd instead)</li>
+          <li>Linux: Removed mmdtsdec/libdcadec (Use latest ffmpeg
+          instead)</li>
         </ul>
       </description>
     </release>
