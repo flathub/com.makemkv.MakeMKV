@@ -45,6 +45,25 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.14.2" date="2018-12-01">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Support for BDAV AVCREC discs</li>
+          <li>Improved handling for DVD discs with mastering errors</li>
+          <li>Some small miscellaneous improvements</li>
+        </ul>
+        <p>Bug fixes for 1.14.0 regressions:</p>
+        <ul>
+          <li>On DVD discs some titles could fail to open, sometimes even crashing the program</li>
+          <li>Opening most 3D blu-ray discs could fail in both backup and MKV mode</li>
+        </ul>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>Program failed on interlaced h.264 video streams with exotic encoding</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.14.1" date="2018-09-11">
       <description>
         <p>Bug Fixes:</p>
