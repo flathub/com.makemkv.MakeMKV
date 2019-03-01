@@ -1,7 +1,7 @@
 {
   "app-id": "com.makemkv.MakeMKV",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.11",
+  "runtime-version": "5.12",
   "sdk": "org.kde.Sdk",
   /* NOTE: java is optional to help find blu-ray main titles */
   "sdk-extensions": [
@@ -36,20 +36,6 @@
         "build-commands": [
           "/usr/lib/sdk/openjdk10/install.sh"
         ]
-    },
-    {
-      /* TODO: remove with 5.12 runtime */
-      "name": "nasm",
-      "cleanup": [
-        "*"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://www.nasm.us/pub/nasm/releasebuilds/2.13.03/nasm-2.13.03.tar.xz",
-          "sha256": "812ecfb0dcbc5bd409aaa8f61c7de94c5b8752a7b00c632883d15b2ed6452573"
-        }
-      ]
     },
     {
       "name": "x264",
