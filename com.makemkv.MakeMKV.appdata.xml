@@ -45,6 +45,15 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.14.3" date="2019-03-10">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Added support for AACS v68</li>
+          <li>Many small miscellaneous improvements</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.14.2" date="2018-12-01">
       <description>
         <p>Changes:</p>

@@ -108,8 +108,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "http://www.makemkv.com/download/makemkv-oss-1.14.2.tar.gz",
-          "sha256": "82da3c03bcd458d60ec006d0eda506fe0d6d7e0c4c9f8757fbfb0f2da69404ca"
+          "url": "http://www.makemkv.com/download/makemkv-oss-1.14.3.tar.gz",
+          "sha256": "222cf2dcfde7a84944353c7edd326e18e3d35b7a7e575484111f64a4b1b9fec9"
         },
         {
           "type": "file",
@@ -131,8 +131,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "http://www.makemkv.com/download/makemkv-bin-1.14.2.tar.gz",
-          "sha256": "e0a8c35f94793e1989046a1462ab3ff1fb13da7e2f3432fac1595ecf5071600f"
+          "url": "http://www.makemkv.com/download/makemkv-bin-1.14.3.tar.gz",
+          "sha256": "e0b10e94ea98643e05da009f867e58481e721fb5c0551d6e5aa2f7756f3e2bb4"
         }
       ]
     }
