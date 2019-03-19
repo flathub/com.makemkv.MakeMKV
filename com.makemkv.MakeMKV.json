@@ -93,7 +93,9 @@
     {
       "name": "makemkv-oss",
       "buildsystem": "autotools",
-      "cflags": "-D__GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS -D __STDC_FORMAT_MACROS",
+      "build-options": {
+        "cflags": "-D__GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS -D __STDC_FORMAT_MACROS"
+      },
       "config-opts": [
         "--enable-allcodecs"
       ],
