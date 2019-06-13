@@ -38,6 +38,17 @@
         ]
     },
     {
+        "name": "wget",
+        "no-autogen": true,
+        "sources": [
+            {
+                "type": "archive",
+                "url": "https://ftp.gnu.org/gnu/wget/wget-1.20.3.tar.lz",
+                "sha256": "69607ce8216c2d1126b7a872db594b3f21e511e660e07ca1f81be96650932abb"
+            }
+        ]
+    },
+    {
       "name": "x264",
       "config-opts": [
         "--disable-cli",
@@ -112,6 +123,10 @@
           "type": "archive",
           "url": "http://www.makemkv.com/download/makemkv-oss-1.14.3.tar.gz",
           "sha256": "222cf2dcfde7a84944353c7edd326e18e3d35b7a7e575484111f64a4b1b9fec9"
+        },
+        {
+            "type": "patch",
+            "path": "patch/makemkv-oss-wget.patch"
         },
         {
           "type": "file",
