@@ -43,8 +43,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://ftp.gnu.org/gnu/wget/wget-1.20.3.tar.lz",
-                "sha256": "69607ce8216c2d1126b7a872db594b3f21e511e660e07ca1f81be96650932abb"
+                "url": "https://ftp.gnu.org/gnu/wget/wget-1.20.3.tar.gz",
+                "sha256": "31cccfc6630528db1c8e3a06f6decf2a370060b982841cfab2b8677400a5092e"
             }
         ]
     },
