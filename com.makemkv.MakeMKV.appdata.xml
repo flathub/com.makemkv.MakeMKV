@@ -45,6 +45,15 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.14.4" date="2019-06-06">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Added support for AACS v70 (for those poor souls without LibreDrive)</li>
+          <li>Many small improvements, program should work a bit faster now</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.14.3" date="2019-03-10">
       <description>
         <p>Changes:</p>
