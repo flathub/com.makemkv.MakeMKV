@@ -1,6 +1,6 @@
 diff -ur makemkv-oss-1.14.4.orig/libabi/src/httplinux.cpp makemkv-oss-1.14.4/libabi/src/httplinux.cpp
 --- makemkv-oss-1.14.4.orig/libabi/src/httplinux.cpp	2019-06-07 09:39:20.000000000 -0700
-+++ makemkv-oss-1.14.4/libabi/src/httplinux.cpp	2019-06-12 09:04:31.294677822 -0700
++++ makemkv-oss-1.14.4/libabi/src/httplinux.cpp	2019-07-10 11:18:02.282636795 -0700
 @@ -47,7 +47,7 @@
      lurl = (char*)alloca(strlen(Url)+1);
      strcpy(lurl,Url);
@@ -12,16 +12,13 @@ diff -ur makemkv-oss-1.14.4.orig/libabi/src/httplinux.cpp makemkv-oss-1.14.4/lib
      strcpy(argv3,"-"); argv[3]=argv3;
 diff -ur makemkv-oss-1.14.4.orig/makemkvgui/src/spawn_posix.cpp makemkv-oss-1.14.4/makemkvgui/src/spawn_posix.cpp
 --- makemkv-oss-1.14.4.orig/makemkvgui/src/spawn_posix.cpp	2019-06-07 09:39:20.000000000 -0700
-+++ makemkv-oss-1.14.4/makemkvgui/src/spawn_posix.cpp	2019-06-12 09:03:36.862712866 -0700
-@@ -75,7 +75,10 @@
++++ makemkv-oss-1.14.4/makemkvgui/src/spawn_posix.cpp	2019-07-10 11:18:28.821103602 -0700
+@@ -75,7 +75,7 @@
          }
      }
  
 -    err = posix_spawn(&pid,argv[0],&spawn_actions,&spawn_attr,argv,envp);
-+    if (argv && argv[0] && argv[0][0] != '/')
-+        err = posix_spawnp(&pid,argv[0],&spawn_actions,&spawn_attr,argv,envp);
-+    else
-+        err = posix_spawn(&pid,argv[0],&spawn_actions,&spawn_attr,argv,envp);
++    err = posix_spawnp(&pid,argv[0],&spawn_actions,&spawn_attr,argv,envp);
  
      if (ppid)
      {
