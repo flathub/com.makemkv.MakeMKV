@@ -57,7 +57,7 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://download.videolan.org/x264/snapshots/x264-snapshot-20181110-2245-stable.tar.bz2",
+          "url": "https://download.videolan.org/x264/snapshots/x264-snapshot-20181110-2245-stable.tar.bz2",
           "sha256": "44d843291719dfd340b854c51360fbed1ddcb40580b7a239eccae4ca558c3868"
         }
       ]
@@ -121,8 +121,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "http://www.makemkv.com/download/makemkv-oss-1.14.4.tar.gz",
-          "sha256": "4061d95d088c1f924ac1b061a9a10f09eee9bfd9f638dcd37c8bf57602a63658"
+          "url": "https://www.makemkv.com/download/makemkv-oss-1.14.5.tar.gz",
+          "sha256": "d177f5962054d3b866d871aa06f1611dcced7ef2f0dcd41a771a50467505e1c9"
         },
         {
             "type": "patch",
@@ -148,8 +148,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "http://www.makemkv.com/download/makemkv-bin-1.14.4.tar.gz",
-          "sha256": "63c86822f34283e10660ac1a06d6f868cd12a891742d25807809575e1bddb56e"
+          "url": "https://www.makemkv.com/download/makemkv-bin-1.14.5.tar.gz",
+          "sha256": "3a5a34facad3705518cbef26dfd424bc075e3a19a2a159b9bac3261220e8d3e6"
         }
       ]
     }
