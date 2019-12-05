@@ -45,6 +45,24 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.14.7" date="2019-12-04">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Better compatibility for decrypted AACS 2.1 FMTS files</li>
+          <li>Fixed variable expansion bug for default file name template</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.14.6" date="2019-12-02">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Added support for AACS 2.1</li>
+          <li>Many small bugfixes and improvements</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.14.5" date="2019-09-06">
       <description>
         <p>Changes:</p>
