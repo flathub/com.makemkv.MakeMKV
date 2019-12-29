@@ -16,7 +16,8 @@
     "--share=network",
     /* For optical drive access */
     "--device=all",
-    "--env=JAVA_HOME=/app/jre"
+    "--env=JAVA_HOME=/app/jre",
+    "--persist=.MakeMKV"
   ],
   "command": "makemkv",
   "build-options" : {
