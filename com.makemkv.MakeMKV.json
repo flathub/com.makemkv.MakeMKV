@@ -8,7 +8,7 @@
     "org.freedesktop.Sdk.Extension.openjdk10"
   ],
   "finish-args": [
-    "--filesystem=home",
+    "--filesystem=host",
     /* X11 access */
     "--socket=x11",
     "--share=ipc",
