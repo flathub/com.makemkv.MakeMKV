@@ -1,11 +1,11 @@
 {
   "app-id": "com.makemkv.MakeMKV",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.12",
+  "runtime-version": "5.14",
   "sdk": "org.kde.Sdk",
   /* NOTE: java is optional to help find blu-ray main titles */
   "sdk-extensions": [
-    "org.freedesktop.Sdk.Extension.openjdk10"
+    "org.freedesktop.Sdk.Extension.openjdk11"
   ],
   "finish-args": [
     "--filesystem=host",
@@ -20,7 +20,7 @@
   ],
   "command": "makemkv",
   "build-options" : {
-    "append-path": "/usr/lib/sdk/openjdk10/bin"
+    "append-path": "/usr/lib/sdk/openjdk11/bin"
   },
   "rename-desktop-file": "makemkv.desktop",
   "rename-icon": "makemkv",
@@ -34,7 +34,7 @@
       "name": "openjdk",
         "buildsystem": "simple",
         "build-commands": [
-          "/usr/lib/sdk/openjdk10/install.sh"
+          "/usr/lib/sdk/openjdk11/install.sh"
         ]
     },
     {
