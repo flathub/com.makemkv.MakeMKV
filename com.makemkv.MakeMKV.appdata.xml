@@ -45,6 +45,20 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.15.1" date="2020-04-15">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Added support for AACS v76 (for those poor souls without LibreDrive)</li>
+          <li>Improved handling for discs with mastering errors</li>
+		  <li>Many internal improvements and small bugfixes</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>For some HD audio streams frames were dropped incorrectly on segment boundaries</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.15.0" date="2020-03-03">
       <description>
         <p>Changes:</p>

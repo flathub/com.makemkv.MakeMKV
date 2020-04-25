@@ -54,11 +54,12 @@
         "--disable-cli",
         "--enable-shared"
       ],
+      /* TODO: snapshotting service is discontinued, update to Git snapshots */
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.videolan.org/x264/snapshots/x264-snapshot-20181110-2245-stable.tar.bz2",
-          "sha256": "44d843291719dfd340b854c51360fbed1ddcb40580b7a239eccae4ca558c3868"
+          "url": "https://download.videolan.org/x264/snapshots/x264-snapshot-20191217-2245-stable.tar.bz2",
+          "sha256": "b2495c8f2930167d470994b1ce02b0f4bfb24b3317ba36ba7f112e9809264160"
         }
       ]
     },
@@ -81,8 +82,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://ffmpeg.org/releases/ffmpeg-4.1.tar.xz",
-          "sha256": "a38ec4d026efb58506a99ad5cd23d5a9793b4bf415f2c4c2e9c1bb444acd1994"
+          "url": "https://ffmpeg.org/releases/ffmpeg-4.2.2.tar.xz",
+          "sha256": "cb754255ab0ee2ea5f66f8850e1bd6ad5cac1cd855d0a2f4990fb8c668b0d29c"
         }
       ]
     },
@@ -96,8 +97,8 @@
         {
           "type": "git",
           "url": "https://github.com/CCExtractor/ccextractor.git",
-          "tag": "v0.87",
-          "commit": "11f87f2b6d90e9661fde24d0847ca64e8ff02d9d"
+          "tag": "v0.88",
+          "commit": "dac9de4d67523e60ed07ee0e868195f90827acd3"
         }
       ]
     },
@@ -121,8 +122,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-oss-1.15.0.tar.gz",
-          "sha256": "a9213fa7cbf2bf2f03d90cd350ad53aa82394bc3991c440e9e369e4169f3ed06"
+          "url": "https://www.makemkv.com/download/makemkv-oss-1.15.1.tar.gz",
+          "sha256": "5e6b3da05a3298a0ac85c674dbde45d5eb36956159deb3207ac23f85a7ffa166"
         },
         {
             "type": "patch",
@@ -148,8 +149,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-bin-1.15.0.tar.gz",
-          "sha256": "442d67d5368390263c30fca2d980ebfffb716be227b9f056b69961d2b11b26ff"
+          "url": "https://www.makemkv.com/download/makemkv-bin-1.15.1.tar.gz",
+          "sha256": "80bbd4438c3ce6e95c085a63b9129c919dff865d14cd2b5e58a851da74302631"
         }
       ]
     }
