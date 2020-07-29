@@ -54,12 +54,11 @@
         "--disable-cli",
         "--enable-shared"
       ],
-      /* TODO: snapshotting service is discontinued, update to Git snapshots */
       "sources": [
         {
-          "type": "archive",
-          "url": "https://download.videolan.org/x264/snapshots/x264-snapshot-20191217-2245-stable.tar.bz2",
-          "sha256": "b2495c8f2930167d470994b1ce02b0f4bfb24b3317ba36ba7f112e9809264160"
+          "type": "git",
+          "url": "https://code.videolan.org/videolan/x264.git",
+		  "commit": "cde9a93319bea766a92e306d69059c76de970190"
         }
       ]
     },
@@ -82,8 +81,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://ffmpeg.org/releases/ffmpeg-4.2.2.tar.xz",
-          "sha256": "cb754255ab0ee2ea5f66f8850e1bd6ad5cac1cd855d0a2f4990fb8c668b0d29c"
+          "url": "https://ffmpeg.org/releases/ffmpeg-4.3.1.tar.xz",
+          "sha256": "ad009240d46e307b4e03a213a0f49c11b650e445b1f8be0dda2a9212b34d2ffb"
         }
       ]
     },
@@ -122,8 +121,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-oss-1.15.1.tar.gz",
-          "sha256": "5e6b3da05a3298a0ac85c674dbde45d5eb36956159deb3207ac23f85a7ffa166"
+          "url": "https://www.makemkv.com/download/makemkv-oss-1.15.2.tar.gz",
+          "sha256": "1ede2f3c6d3f650c257b667d5254526375605e8d97492810e4d870573efdd0f2"
         },
         {
             "type": "patch",
@@ -149,8 +148,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-bin-1.15.1.tar.gz",
-          "sha256": "80bbd4438c3ce6e95c085a63b9129c919dff865d14cd2b5e58a851da74302631"
+          "url": "https://www.makemkv.com/download/makemkv-bin-1.15.2.tar.gz",
+          "sha256": "141b67c526bb0dfa0b556c9c6322ea73586439b5a03042a6827c518a81be71b5"
         }
       ]
     }
