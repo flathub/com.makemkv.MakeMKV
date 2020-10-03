@@ -1,7 +1,7 @@
 {
   "app-id": "com.makemkv.MakeMKV",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.14",
+  "runtime-version": "5.15",
   "sdk": "org.kde.Sdk",
   /* NOTE: java is optional to help find blu-ray main titles */
   "sdk-extensions": [
@@ -98,6 +98,10 @@
           "url": "https://github.com/CCExtractor/ccextractor.git",
           "tag": "v0.88",
           "commit": "dac9de4d67523e60ed07ee0e868195f90827acd3"
+        },
+        {
+            "type": "patch",
+            "path": "patch/ccextractor-gcc10.patch"
         }
       ]
     },
@@ -121,12 +125,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-oss-1.15.2.tar.gz",
-          "sha256": "1ede2f3c6d3f650c257b667d5254526375605e8d97492810e4d870573efdd0f2"
-        },
-        {
-            "type": "patch",
-            "path": "patch/makemkv-oss-wget.patch"
+          "url": "https://www.makemkv.com/download/makemkv-oss-1.15.3.tar.gz",
+          "sha256": "42bbaaf5828068d175a43b4e869b4ff7952314bd8d03812e44e478bfa5d91c4c"
         },
         {
           "type": "file",
@@ -148,8 +148,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-bin-1.15.2.tar.gz",
-          "sha256": "141b67c526bb0dfa0b556c9c6322ea73586439b5a03042a6827c518a81be71b5"
+          "url": "https://www.makemkv.com/download/makemkv-bin-1.15.3.tar.gz",
+          "sha256": "636dda7ad9f0a8b19a048809fc03f4a02ae1f0fe63a55adc30982673439efa2f"
         }
       ]
     }
