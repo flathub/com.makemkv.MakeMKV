@@ -45,6 +45,25 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.15.3" date="2020-10-01">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Massive internal rewrite, many bugfixes</li>
+          <li>Improved handling for discs with mastering errors</li>
+          <li>Brand new network code, it is now possible to set proxy server in preferences, to access network over TOR/VPN</li>
+          <li>MakeMKV now can extract Dolby Vision metadata from elementary stream data and rebuild missing or invalid DV descriptors</li>
+          <li>Drive speed control update - MakeMKV now forces low speed when reading data around disc edges, working around firmware bugs</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Program could hang or crash when converting files with many audio streams</li>
+          <li>On some multi-segment sources with LPCM audio program failed to produce MKV file</li>
+          <li>Program could crash when producing testdump or when conversion failed</li>
+          <li>On 32-bit x86 system program could run out of memory on big mult-segment sources</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.15.2" date="2020-07-20">
       <description>
         <p>Changes:</p>
