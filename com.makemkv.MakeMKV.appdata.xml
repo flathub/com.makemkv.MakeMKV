@@ -45,6 +45,22 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1" />
   <releases>
+  <release version="1.15.4" date="2020-12-08">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Improved handling for discs with mastering errors</li>
+          <li>Many internal improvements and small bugfixes</li>
+          <li>Implemented seamless joining of TrueHD streams with overlapping frames based on Dominik Mydlil's idea</li>
+          <li>MakeMKV now recognizes and converts double-track Dolby Vision MKV files</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Program could fail when processing TrueHD streams from MKV file</li>
+          <li>DTS core was not extracted from DTS-HD streams (1.15.0 regression)</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.15.3" date="2020-10-01">
       <description>
         <p>Changes:</p>
