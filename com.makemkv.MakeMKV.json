@@ -5,7 +5,7 @@
   "sdk": "org.kde.Sdk",
   /* NOTE: java is optional to help find blu-ray main titles */
   "sdk-extensions": [
-    "org.freedesktop.Sdk.Extension.openjdk11"
+    "org.freedesktop.Sdk.Extension.openjdk8"
   ],
   "finish-args": [
     "--filesystem=host",
@@ -20,7 +20,7 @@
   ],
   "command": "makemkv",
   "build-options" : {
-    "append-path": "/usr/lib/sdk/openjdk11/bin"
+    "append-path": "/usr/lib/sdk/openjdk8/bin"
   },
   "rename-desktop-file": "makemkv.desktop",
   "rename-icon": "makemkv",
@@ -34,7 +34,7 @@
       "name": "openjdk",
         "buildsystem": "simple",
         "build-commands": [
-          "/usr/lib/sdk/openjdk11/install.sh"
+          "/usr/lib/sdk/openjdk8/install.sh"
         ]
     },
     {
