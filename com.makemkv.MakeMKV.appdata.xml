@@ -45,6 +45,30 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.16.1" date="2021-03-04">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Some small improvements</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Mac OS: Program could fail to start</li>
+          <li>Mac OS: ccextractor helper app failed to start</li>
+          <li>Windows XP: Program failed to start</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.16.0" date="2021-02-27">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>ARM port, support for Apple silicon, Linux on ARM</li>
+          <li>MMMBD on OSX - support for applications with hardened runtime (Handbrake)</li>
+          <li>Some internal improvements and small bugfixes</li>
+        </ul>
+      </description>
+    </release>
   <release version="1.15.4" date="2020-12-08">
       <description>
         <p>Changes:</p>
