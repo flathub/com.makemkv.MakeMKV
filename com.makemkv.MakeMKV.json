@@ -43,8 +43,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://ftp.gnu.org/gnu/wget/wget-1.20.3.tar.gz",
-                "sha256": "31cccfc6630528db1c8e3a06f6decf2a370060b982841cfab2b8677400a5092e"
+                "url": "https://ftp.gnu.org/gnu/wget/wget-1.21.tar.gz",
+                "sha256": "b3bc1a9bd0c19836c9709c318d41c19c11215a07514f49f89b40b9d50ab49325"
             }
         ]
     },
@@ -58,7 +58,7 @@
         {
           "type": "git",
           "url": "https://code.videolan.org/videolan/x264.git",
-		  "commit": "cde9a93319bea766a92e306d69059c76de970190"
+		  "commit": "544c61f082194728d0391fb280a6e138ba320a96"
         }
       ]
     },
@@ -81,27 +81,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://ffmpeg.org/releases/ffmpeg-4.3.1.tar.xz",
-          "sha256": "ad009240d46e307b4e03a213a0f49c11b650e445b1f8be0dda2a9212b34d2ffb"
-        }
-      ]
-    },
-    {
-      "name": "ccextractor",
-      /* also supports cmake, but has an odd layout */
-      "buildsystem": "autotools",
-      "subdir": "linux",
-      /* prefer git over a tar archive because the build looks for a git commit */
-      "sources" : [
-        {
-          "type": "git",
-          "url": "https://github.com/CCExtractor/ccextractor.git",
-          "tag": "v0.88",
-          "commit": "dac9de4d67523e60ed07ee0e868195f90827acd3"
-        },
-        {
-            "type": "patch",
-            "path": "patch/ccextractor-gcc10.patch"
+          "url": "https://ffmpeg.org/releases/ffmpeg-4.3.2.tar.xz",
+          "sha256": "46e4e64f1dd0233cbc0934b9f1c0da676008cad34725113fb7f802cfa84ccddb"
         }
       ]
     },
@@ -125,8 +106,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-oss-1.16.1.tar.gz",
-          "sha256": "32e0ee2708527ce22a961c7249c607d11d88f5ffdb41809a7b7ed8003af48845"
+          "url": "https://www.makemkv.com/download/makemkv-oss-1.16.3.tar.gz",
+          "sha256": "6141a8ccff41eaf9964385b172d49b7b3ceefb4c8b25734a424f53c27405f05d"
         },
         {
           "type": "file",
@@ -148,8 +129,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-bin-1.16.1.tar.gz",
-          "sha256": "941f88acfb3790ecc008b2675e8ad3d0353f0163778cc1cb9507aa87c3427db6"
+          "url": "https://www.makemkv.com/download/makemkv-bin-1.16.3.tar.gz",
+          "sha256": "1b65dc78cc2216ee1f593e0bdc72730c1feb0f77925fa928e91755c3bd902f38"
         }
       ]
     }
