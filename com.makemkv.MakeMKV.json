@@ -5,7 +5,7 @@
   "sdk": "org.kde.Sdk",
   /* NOTE: java is optional to help find blu-ray main titles */
   "sdk-extensions": [
-    "org.freedesktop.Sdk.Extension.openjdk8"
+    "org.freedesktop.Sdk.Extension.openjdk"
   ],
   "finish-args": [
     "--filesystem=host",
@@ -20,7 +20,7 @@
   ],
   "command": "makemkv",
   "build-options" : {
-    "append-path": "/usr/lib/sdk/openjdk8/bin"
+    "append-path": "/usr/lib/sdk/openjdk/bin"
   },
   "rename-desktop-file": "makemkv.desktop",
   "rename-icon": "makemkv",
@@ -34,7 +34,7 @@
       "name": "openjdk",
         "buildsystem": "simple",
         "build-commands": [
-          "/usr/lib/sdk/openjdk8/install.sh"
+          "/usr/lib/sdk/openjdk/install.sh"
         ]
     },
     {
@@ -43,8 +43,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://ftp.gnu.org/gnu/wget/wget-1.21.tar.gz",
-                "sha256": "b3bc1a9bd0c19836c9709c318d41c19c11215a07514f49f89b40b9d50ab49325"
+                "url": "https://ftp.gnu.org/gnu/wget/wget-1.21.1.tar.gz",
+                "sha256": "59ba0bdade9ad135eda581ae4e59a7a9f25e3a4bde6a5419632b31906120e26e"
             }
         ]
     },
@@ -58,7 +58,7 @@
         {
           "type": "git",
           "url": "https://code.videolan.org/videolan/x264.git",
-		  "commit": "544c61f082194728d0391fb280a6e138ba320a96"
+		  "commit": "5db6aa6cab1b146e07b60cc1736a01f21da01154"
         }
       ]
     },
@@ -81,8 +81,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://ffmpeg.org/releases/ffmpeg-4.3.2.tar.xz",
-          "sha256": "46e4e64f1dd0233cbc0934b9f1c0da676008cad34725113fb7f802cfa84ccddb"
+          "url": "https://ffmpeg.org/releases/ffmpeg-4.4.tar.xz",
+          "sha256": "06b10a183ce5371f915c6bb15b7b1fffbe046e8275099c96affc29e17645d909"
         }
       ]
     },
@@ -106,8 +106,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-oss-1.16.3.tar.gz",
-          "sha256": "6141a8ccff41eaf9964385b172d49b7b3ceefb4c8b25734a424f53c27405f05d"
+          "url": "https://www.makemkv.com/download/makemkv-oss-1.16.4.tar.gz",
+          "sha256": "e6b0d391159e60c48c115cdf6938eb02f5aeef3c3fecf94813c500f4031e4f6b"
         },
         {
           "type": "file",
@@ -129,8 +129,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-bin-1.16.3.tar.gz",
-          "sha256": "1b65dc78cc2216ee1f593e0bdc72730c1feb0f77925fa928e91755c3bd902f38"
+          "url": "https://www.makemkv.com/download/makemkv-bin-1.16.4.tar.gz",
+          "sha256": "22fbd3f57e93f3c79a76c878202fb27e85f2d66de26b3be87b69198228a66aa2"
         }
       ]
     }
