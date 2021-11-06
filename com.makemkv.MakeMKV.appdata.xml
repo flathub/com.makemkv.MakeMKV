@@ -45,6 +45,17 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.16.5" date="2021-11-01">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Miscellaneous UI improvements</li>
+          <li>WinCDArb update, fixes occasional "no optical drives" error</li>
+          <li>LibMMBD stability improvements</li>
+          <li>Many small bug-fixes</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.16.4" date="2021-07-08">
       <description>
         <p>Changes:</p>
