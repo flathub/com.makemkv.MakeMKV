@@ -5,7 +5,7 @@
   "sdk": "org.kde.Sdk",
   /* NOTE: java is optional to help find blu-ray main titles */
   "sdk-extensions": [
-    "org.freedesktop.Sdk.Extension.openjdk"
+    "org.freedesktop.Sdk.Extension.openjdk8"
   ],
   "finish-args": [
     "--filesystem=host",
@@ -20,7 +20,7 @@
   ],
   "command": "makemkv",
   "build-options" : {
-    "append-path": "/usr/lib/sdk/openjdk/bin"
+    "append-path": "/usr/lib/sdk/openjdk8/bin"
   },
   "rename-desktop-file": "makemkv.desktop",
   "rename-icon": "makemkv",
@@ -34,7 +34,7 @@
       "name": "openjdk",
         "buildsystem": "simple",
         "build-commands": [
-          "/usr/lib/sdk/openjdk/install.sh"
+          "/usr/lib/sdk/openjdk8/install.sh"
         ]
     },
     {
@@ -43,8 +43,8 @@
         "sources": [
             {
                 "type": "archive",
-                "url": "https://ftp.gnu.org/gnu/wget/wget-1.21.2.tar.gz",
-                "sha256": "e6d4c76be82c676dd7e8c61a29b2ac8510ae108a810b5d1d18fc9a1d2c9a2497"
+                "url": "https://ftp.gnu.org/gnu/wget/wget-1.21.3.tar.gz",
+                "sha256": "5726bb8bc5ca0f6dc7110f6416e4bb7019e2d2ff5bf93d1ca2ffcc6656f220e5"
             }
         ]
     },
@@ -81,8 +81,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://www.ffmpeg.org/releases/ffmpeg-4.4.1.tar.xz",
-          "sha256": "eadbad9e9ab30b25f5520fbfde99fae4a92a1ae3c0257a8d68569a4651e30e02"
+          "url": "https://ffmpeg.org/releases/ffmpeg-5.0.tar.xz",
+          "sha256": "51e919f7d205062c0fd4fae6243a84850391115104ccf1efc451733bc0ac7298"
         }
       ]
     },
@@ -106,8 +106,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-oss-1.16.5.tar.gz",
-          "sha256": "e58e34b3ce95462bc38a242a120692c2b4e56c5a98e57cce372931ff486c3b8c"
+          "url": "https://www.makemkv.com/download/makemkv-oss-1.16.7.tar.gz",
+          "sha256": "4cbd0f44ffe90e0d7aaac6d88bd458c83d1e80d0dac6e029991f3a86247f46af"
         },
         {
           "type": "file",
@@ -129,8 +129,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-bin-1.16.5.tar.gz",
-          "sha256": "a06e1ef1e2442b8490b783030c5c16cac2d6404525632234c04d032961f724f8"
+          "url": "https://www.makemkv.com/download/makemkv-bin-1.16.7.tar.gz",
+          "sha256": "623b185b6326cc366a38c75896a134759dfdf50abc849450f4109588d7b12c7b"
         }
       ]
     }
