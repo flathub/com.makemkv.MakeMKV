@@ -45,6 +45,41 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.17.1" date="2022-07-13">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Small improvements and bugfixes</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Program could hang when scanning certain protected DVD discs using CellWallk method</li>
+          <li>Some titles were truncated on DVDs with structure protection, when using CellWallk method</li>
+          <li>Small bugfixes</li>
+        </ul>
+        <p>1.17.0 regressions:</p>
+        <ul>
+          <li>On some UHD HEVC streams program spitted thousands of invalid "Corrupt" messages, appearing to hang</li>
+          <li>Program crashed decoding certain AC3 (DD) streams, usually during transcoding</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.17.0" date="2022-06-27">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Improved handling for discs with mastering errors</li>
+          <li>A new, rewritten DVD engine - much better handling for discs with structure protection</li>
+          <li>Many internal improvements and small bugfixes</li>
+        </ul>
+        <p>Notable bug fixes:</p>
+        <ul>
+          <li>Program failed to recognize some exotic USB drives</li>
+          <li>Program failed on some DVD streams recorded from sattelite feed (TiVO DVD)</li>
+          <li>Program could hang if internet connection wasn't available</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.16.7" date="2022-02-27">
       <description>
         <p>Changes:</p>

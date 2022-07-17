@@ -58,7 +58,7 @@
         {
           "type": "git",
           "url": "https://code.videolan.org/videolan/x264.git",
-		  "commit": "5db6aa6cab1b146e07b60cc1736a01f21da01154"
+          "commit": "baee400fa9ced6f5481a728138fed6e867b0ff7f"
         }
       ]
     },
@@ -81,8 +81,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://ffmpeg.org/releases/ffmpeg-5.0.tar.xz",
-          "sha256": "51e919f7d205062c0fd4fae6243a84850391115104ccf1efc451733bc0ac7298"
+          "url": "https://ffmpeg.org/releases/ffmpeg-5.0.1.tar.xz",
+          "sha256": "ef2efae259ce80a240de48ec85ecb062cecca26e4352ffb3fda562c21a93007b"
         }
       ]
     },
@@ -106,8 +106,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-oss-1.16.7.tar.gz",
-          "sha256": "4cbd0f44ffe90e0d7aaac6d88bd458c83d1e80d0dac6e029991f3a86247f46af"
+          "url": "https://www.makemkv.com/download/makemkv-oss-1.17.1.tar.gz",
+          "sha256": "0d572b1b937d97275cb75d71a142b3d555428aebd53a64161a500fda7ae766fe"
         },
         {
           "type": "file",
@@ -129,8 +129,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-bin-1.16.7.tar.gz",
-          "sha256": "623b185b6326cc366a38c75896a134759dfdf50abc849450f4109588d7b12c7b"
+          "url": "https://www.makemkv.com/download/makemkv-bin-1.17.1.tar.gz",
+          "sha256": "0784908b07f9fc87307a0f958105b7e2d37f5f10c0ef1a1280854e7d7c06b1f3"
         }
       ]
     }
