@@ -45,6 +45,25 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.17.1" date="2022-07-13">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Small improvements and bugfixes</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Program could hang when scanning certain protected DVD discs using CellWallk method</li>
+          <li>Some titles were truncated on DVDs with structure protection, when using CellWallk method</li>
+          <li>Small bugfixes</li>
+        </ul>
+        <p>1.17.0 regressions:</p>
+        <ul>
+          <li>On some UHD HEVC streams program spitted thousands of invalid "Corrupt" messages, appearing to hang</li>
+          <li>Program crashed decoding certain AC3 (DD) streams, usually during transcoding</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.17.0" date="2022-06-27">
       <description>
         <p>Changes:</p>
