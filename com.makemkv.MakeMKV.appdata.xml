@@ -45,6 +45,15 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.17.2" date="2022-10-10">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Improved handling for discs with mastering errors</li>
+          <li>Small improvements and bugfixes</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.17.1" date="2022-07-13">
       <description>
         <p>Changes:</p>

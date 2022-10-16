@@ -5,7 +5,7 @@
   "sdk": "org.kde.Sdk",
   /* NOTE: java is optional to help find blu-ray main titles */
   "sdk-extensions": [
-    "org.freedesktop.Sdk.Extension.openjdk8"
+    "org.freedesktop.Sdk.Extension.openjdk17"
   ],
   "finish-args": [
     "--filesystem=host",
@@ -20,7 +20,7 @@
   ],
   "command": "makemkv",
   "build-options" : {
-    "append-path": "/usr/lib/sdk/openjdk8/bin"
+    "append-path": "/usr/lib/sdk/openjdk17/bin"
   },
   "rename-desktop-file": "makemkv.desktop",
   "rename-icon": "makemkv",
@@ -33,7 +33,7 @@
       "name": "openjdk",
         "buildsystem": "simple",
         "build-commands": [
-          "/usr/lib/sdk/openjdk8/install.sh"
+          "/usr/lib/sdk/openjdk17/install.sh"
         ]
     },
     {
@@ -80,8 +80,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://ffmpeg.org/releases/ffmpeg-5.0.1.tar.xz",
-          "sha256": "ef2efae259ce80a240de48ec85ecb062cecca26e4352ffb3fda562c21a93007b"
+          "url": "https://ffmpeg.org/releases/ffmpeg-5.1.2.tar.xz",
+          "sha256": "619e706d662c8420859832ddc259cd4d4096a48a2ce1eefd052db9e440eef3dc"
         }
       ]
     },
@@ -105,8 +105,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-oss-1.17.1.tar.gz",
-          "sha256": "0d572b1b937d97275cb75d71a142b3d555428aebd53a64161a500fda7ae766fe"
+          "url": "https://www.makemkv.com/download/makemkv-oss-1.17.2.tar.gz",
+          "sha256": "a83f8abb3f23def0dc8783e535062a75b7df2f7612291a8a83a21f90b93f2da4"
         },
         {
           "type": "file",
@@ -128,8 +128,8 @@
       "sources" : [
         {
           "type": "archive",
-          "url": "https://www.makemkv.com/download/makemkv-bin-1.17.1.tar.gz",
-          "sha256": "0784908b07f9fc87307a0f958105b7e2d37f5f10c0ef1a1280854e7d7c06b1f3"
+          "url": "https://www.makemkv.com/download/makemkv-bin-1.17.2.tar.gz",
+          "sha256": "80008ccc9ee864293f20d49e25a57b1a717d872ffa17d7744032e9e633e21789"
         }
       ]
     }
