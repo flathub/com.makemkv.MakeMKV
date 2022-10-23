@@ -26,7 +26,6 @@
   "rename-icon": "makemkv",
   "cleanup": [
     "/include",
-    "/lib/debug",
     "/lib/pkgconfig"
   ],
   "modules": [
