@@ -19,6 +19,9 @@ build-options:
   append-path: /usr/lib/sdk/openjdk17/bin
 rename-desktop-file: makemkv.desktop
 rename-icon: makemkv
+cleanup:
+  - /include
+  - /lib/pkgconfig
 modules:
   - name: openjdk
     buildsystem: simple
@@ -106,7 +109,3 @@ modules:
           url: https://makemkv.com/download
           version-pattern: "MakeMKV v([\\d\\.]*)"
           url-template: https://www.makemkv.com/download/makemkv-bin-$major.$minor.$patch.tar.gz
-    cleanup:
-      - /include
-      - /lib/debug
-      - /lib/pkgconfig
