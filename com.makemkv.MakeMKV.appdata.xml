@@ -43,8 +43,9 @@
   </screenshots>
   <project_license>LicenseRef-proprietary AND GPL-2.0 AND LGPL-2.1-only</project_license>
   <developer_name>GuinpinSoft inc</developer_name>
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.17.3" date="2023-02-02"/>
     <release version="1.17.2" date="2022-10-10">
       <description>
         <p>Changes:</p>
