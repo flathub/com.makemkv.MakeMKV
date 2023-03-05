@@ -37,7 +37,7 @@ modules:
           type: anitya
           project-id: 5124
           stable-only: true
-          url-template: https://ftp.gnu.org/gnu/wget/wget-$major.$minor.$patch.tar.gz
+          url-template: https://ftp.gnu.org/gnu/wget/wget-$version.tar.gz
   - name: x264
     config-opts:
       - --disable-cli
@@ -67,7 +67,7 @@ modules:
           type: anitya
           project-id: 5405
           stable-only: true
-          url-template: https://ffmpeg.org/releases/ffmpeg-$major.$minor.$patch.tar.xz
+          url-template: https://ffmpeg.org/releases/ffmpeg-$version.tar.xz
   - name: makemkv-oss
     buildsystem: autotools
     build-options:
@@ -88,7 +88,7 @@ modules:
           type: html
           url: https://makemkv.com/download
           version-pattern: MakeMKV v([\d\.]*)
-          url-template: https://www.makemkv.com/download/makemkv-oss-$major.$minor.$patch.tar.gz
+          url-template: https://www.makemkv.com/download/makemkv-oss-$version.tar.gz
       - type: file
         path: com.makemkv.MakeMKV.appdata.xml
   - name: makemkv-bin
@@ -108,4 +108,4 @@ modules:
           type: html
           url: https://makemkv.com/download
           version-pattern: MakeMKV v([\d\.]*)
-          url-template: https://www.makemkv.com/download/makemkv-bin-$major.$minor.$patch.tar.gz
+          url-template: https://www.makemkv.com/download/makemkv-bin-$version.tar.gz
