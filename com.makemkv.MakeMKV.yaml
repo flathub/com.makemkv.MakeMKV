@@ -61,8 +61,8 @@ modules:
       - /share/ffmpeg/examples
     sources:
       - type: archive
-        url: https://ffmpeg.org/releases/ffmpeg-5.1.2.tar.xz
-        sha256: 619e706d662c8420859832ddc259cd4d4096a48a2ce1eefd052db9e440eef3dc
+        url: https://ffmpeg.org/releases/ffmpeg-5.1.3.tar.xz
+        sha256: 1b113593ff907293be7aed95acdda5e785dd73616d7d4ec90a0f6adbc5a0312e
         x-checker-data:
           type: anitya
           project-id: 5405
