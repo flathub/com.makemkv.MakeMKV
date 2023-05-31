@@ -45,6 +45,19 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.17.4" date="2023-05-29">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Added support for AACSv81</li>
+          <li>Small improvements and bugfixes</li>
+        </ul>
+        <p>Notable bug fixes:</p>
+        <ul>
+          <li>4K BDAV discs with 4K-only content could fail to open</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.17.3" date="2023-02-01">
       <description>
         <p>Changes:</p>
