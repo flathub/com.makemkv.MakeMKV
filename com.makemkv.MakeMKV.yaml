@@ -86,7 +86,7 @@ modules:
         sha256: 70e3599dd0a120ababa00d44c93ec8d2d001aea93e902355786ed90a7360cc99
         x-checker-data:
           type: html
-          url: https://makemkv.com/download
+          url: https://www.makemkv.com/download
           version-pattern: MakeMKV v([\d\.]*)
           url-template: https://www.makemkv.com/download/makemkv-oss-$version.tar.gz
       - type: file
@@ -106,6 +106,6 @@ modules:
         sha256: 68ebc6f9baba7be4429014b73bdf6da33516a399f011e9e535eb383aff97748b
         x-checker-data:
           type: html
-          url: https://makemkv.com/download
+          url: https://www.makemkv.com/download
           version-pattern: MakeMKV v([\d\.]*)
           url-template: https://www.makemkv.com/download/makemkv-bin-$version.tar.gz
