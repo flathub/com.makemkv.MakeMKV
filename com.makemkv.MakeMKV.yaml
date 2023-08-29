@@ -5,7 +5,12 @@ sdk: org.kde.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk17
 finish-args:
-  - --filesystem=host
+  - --filesystem=home
+  - --filesystem=/media
+  - --filesystem=/mnt
+  - --filesystem=/run/media
+  - --filesystem=/var/run/media
+  - --filesystem=/var/mnt
   # X11 access
   - --socket=x11
   - --share=ipc
