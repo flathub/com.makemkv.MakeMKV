@@ -61,8 +61,8 @@ modules:
       - /share/ffmpeg/examples
     sources:
       - type: archive
-        url: https://ffmpeg.org/releases/ffmpeg-5.1.3.tar.xz
-        sha256: 1b113593ff907293be7aed95acdda5e785dd73616d7d4ec90a0f6adbc5a0312e
+        url: https://ffmpeg.org/releases/ffmpeg-6.0.tar.xz
+        sha256: 57be87c22d9b49c112b6d24bc67d42508660e6b718b3db89c44e47e289137082
         x-checker-data:
           type: anitya
           project-id: 5405
@@ -82,8 +82,8 @@ modules:
       - install -Dp -m 644 License.txt --target-directory=/app/share/licenses/com.makemkv.MakeMKV
     sources:
       - type: archive
-        url: https://www.makemkv.com/download/makemkv-oss-1.17.4.tar.gz
-        sha256: 70e3599dd0a120ababa00d44c93ec8d2d001aea93e902355786ed90a7360cc99
+        url: https://www.makemkv.com/download/makemkv-oss-1.17.5.tar.gz
+        sha256: fc2f4b0dc53117ab49927d9a415fa73082d1a4ae47df0c4e30cc4710c4c2fc22
         x-checker-data:
           type: html
           url: https://www.makemkv.com/download
@@ -102,8 +102,8 @@ modules:
       - install -Dp -m 644 src/eula_en_linux.txt --target-directory=/app/share/licenses/com.makemkv.MakeMKV
     sources:
       - type: archive
-        url: https://www.makemkv.com/download/makemkv-bin-1.17.4.tar.gz
-        sha256: 68ebc6f9baba7be4429014b73bdf6da33516a399f011e9e535eb383aff97748b
+        url: https://www.makemkv.com/download/makemkv-bin-1.17.5.tar.gz
+        sha256: cb009c31f69601e2f66e315925a09ad175bad041f27c5096d7b06dd5004df04f
         x-checker-data:
           type: html
           url: https://www.makemkv.com/download
