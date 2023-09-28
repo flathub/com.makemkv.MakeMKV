@@ -45,7 +45,17 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1"/>
   <releases>
-    <release version="1.17.5" date="2023-09-25"/>
+    <release version="1.17.5" date="2023-09-25">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Improved handling for discs with mastering errors</li>
+          <li>Fixed several bughs related to HD-DVD handling (just about time...)</li>
+          <li>Fixed Linux ARM64 executabe crashing on certain hardware configurations</li>
+          <li>Small improvements and bugfixes</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.17.4" date="2023-05-29">
       <description>
         <p>Changes:</p>
