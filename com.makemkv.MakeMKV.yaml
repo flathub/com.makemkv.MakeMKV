@@ -3,7 +3,7 @@ runtime: org.kde.Platform
 runtime-version: 5.15-23.08
 sdk: org.kde.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk17
+  - org.freedesktop.Sdk.Extension.openjdk8
 finish-args:
   - --filesystem=host
   # X11 access
@@ -16,7 +16,7 @@ finish-args:
   - --env=JAVA_HOME=/app/jre
 command: makemkv
 build-options:
-  append-path: /usr/lib/sdk/openjdk17/bin
+  append-path: /usr/lib/sdk/openjdk8/bin
 rename-desktop-file: makemkv.desktop
 rename-icon: makemkv
 cleanup:
@@ -26,18 +26,7 @@ modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk17/install.sh
-  - name: wget
-    no-autogen: true
-    sources:
-      - type: archive
-        url: https://ftp.gnu.org/gnu/wget/wget-1.21.4.tar.gz
-        sha256: 81542f5cefb8faacc39bbbc6c82ded80e3e4a88505ae72ea51df27525bcde04c
-        x-checker-data:
-          type: anitya
-          project-id: 5124
-          stable-only: true
-          url-template: https://ftp.gnu.org/gnu/wget/wget-$version.tar.gz
+      - /usr/lib/sdk/openjdk8/install.sh
   - name: x264
     config-opts:
       - --disable-cli
@@ -61,15 +50,13 @@ modules:
       - /share/ffmpeg/examples
     sources:
       - type: archive
-        url: https://ffmpeg.org/releases/ffmpeg-6.0.tar.xz
-        sha256: 57be87c22d9b49c112b6d24bc67d42508660e6b718b3db89c44e47e289137082
+        url: https://ffmpeg.org/releases/ffmpeg-6.0.1.tar.xz
+        sha256: 9b16b8731d78e596b4be0d720428ca42df642bb2d78342881ff7f5bc29fc9623
         x-checker-data:
           type: anitya
           project-id: 5405
           stable-only: true
           url-template: https://ffmpeg.org/releases/ffmpeg-$version.tar.xz
-      - type: patch
-        path: ffmpeg_binutils241.patch
   - name: openssl
     buildsystem: simple
     build-commands:
