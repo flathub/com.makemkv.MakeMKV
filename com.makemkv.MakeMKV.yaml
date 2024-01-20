@@ -50,8 +50,8 @@ modules:
       - /share/ffmpeg/examples
     sources:
       - type: archive
-        url: https://ffmpeg.org/releases/ffmpeg-6.0.1.tar.xz
-        sha256: 9b16b8731d78e596b4be0d720428ca42df642bb2d78342881ff7f5bc29fc9623
+        url: https://ffmpeg.org/releases/ffmpeg-6.1.1.tar.xz
+        sha256: 8684f4b00f94b85461884c3719382f1261f0d9eb3d59640a1f4ac0873616f968
         x-checker-data:
           type: anitya
           project-id: 5405
@@ -60,13 +60,13 @@ modules:
   - name: openssl
     buildsystem: simple
     build-commands:
-    - "./config --prefix=/app --openssldir=/app/ssl shared zlib"
-    - make -j $FLATPAK_BUILDER_N_JOBS
-    - make install
+      - ./config --prefix=/app --openssldir=/app/ssl shared zlib
+      - make -j $FLATPAK_BUILDER_N_JOBS
+      - make install
     sources:
-    - type: archive
-      url: https://www.openssl.org/source/openssl-1.1.1w.tar.gz
-      sha256: cf3098950cb4d853ad95c0841f1f9c6d3dc102dccfcacd521d93925208b76ac8
+      - type: archive
+        url: https://www.openssl.org/source/openssl-1.1.1w.tar.gz
+        sha256: cf3098950cb4d853ad95c0841f1f9c6d3dc102dccfcacd521d93925208b76ac8
   - name: makemkv-oss
     buildsystem: autotools
     build-options:
@@ -81,8 +81,8 @@ modules:
       - install -Dp -m 644 License.txt --target-directory=/app/share/licenses/com.makemkv.MakeMKV
     sources:
       - type: archive
-        url: https://www.makemkv.com/download/makemkv-oss-1.17.5.tar.gz
-        sha256: fc2f4b0dc53117ab49927d9a415fa73082d1a4ae47df0c4e30cc4710c4c2fc22
+        url: https://www.makemkv.com/download/makemkv-oss-1.17.6.tar.gz
+        sha256: d9db4d772bf4f9061642b7eb22ee5140a48de2c71258ab8b14d949657a710d43
         x-checker-data:
           type: html
           url: https://www.makemkv.com/download
@@ -101,8 +101,8 @@ modules:
       - install -Dp -m 644 src/eula_en_linux.txt --target-directory=/app/share/licenses/com.makemkv.MakeMKV
     sources:
       - type: archive
-        url: https://www.makemkv.com/download/makemkv-bin-1.17.5.tar.gz
-        sha256: cb009c31f69601e2f66e315925a09ad175bad041f27c5096d7b06dd5004df04f
+        url: https://www.makemkv.com/download/makemkv-bin-1.17.6.tar.gz
+        sha256: 287646005029f771d366cf0e4fbeb17fcf1033452d955547deae7b0999b4ed1b
         x-checker-data:
           type: html
           url: https://www.makemkv.com/download
