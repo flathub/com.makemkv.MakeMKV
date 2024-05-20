@@ -45,6 +45,9 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.17.7" date="2024-05-15">
+      <description></description>
+    </release>
     <release version="1.17.6" date="2024-01-20">
       <description>
         <p>Changes:</p>
