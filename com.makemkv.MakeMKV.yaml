@@ -7,8 +7,10 @@ sdk-extensions:
 finish-args:
   - --filesystem=host
   # X11 access
-  - --socket=x11
+  - --socket=fallback-x11
   - --share=ipc
+  # Wayland access
+  - --socket=wayland
   # Network access
   - --share=network
   # For optical drive access
