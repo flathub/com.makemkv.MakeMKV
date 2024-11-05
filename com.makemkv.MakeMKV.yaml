@@ -50,8 +50,8 @@ modules:
       - /share/ffmpeg/examples
     sources:
       - type: archive
-        url: https://ffmpeg.org/releases/ffmpeg-4.4.5.tar.xz
-        sha256: f9514e0d3515aee5a271283df71636e1d1ff7274b15853bcd84e144be416ab07
+        url: https://ffmpeg.org/releases/ffmpeg-7.1.tar.xz
+        sha256: 40973d44970dbc83ef302b0609f2e74982be2d85916dd2ee7472d30678a7abe6
         x-checker-data:
           type: anitya
           project-id: 5405
