@@ -6,8 +6,10 @@ sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk8
 finish-args:
   - --filesystem=host
+  # Wayland access
+  - --socket=wayland
   # X11 access
-  - --socket=x11
+  - --socket=fallback-x11
   - --share=ipc
   # Network access
   - --share=network
