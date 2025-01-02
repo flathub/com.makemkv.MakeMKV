@@ -17,6 +17,7 @@ finish-args:
   # For optical drive access
   - --device=all
   - --env=JAVA_HOME=/app/jre
+  - --env=PATH=/app/jre/bin:/app/bin:/usr/bin
 command: makemkv
 build-options:
   append-path: /usr/lib/sdk/openjdk8/bin
