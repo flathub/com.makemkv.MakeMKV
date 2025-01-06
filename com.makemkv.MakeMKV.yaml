@@ -5,7 +5,7 @@ sdk: org.kde.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk8
 finish-args:
-  - --filesystem=~/.MakeMKV:create
+  - --persist=.MakeMKV
   - --filesystem=xdg-videos
   # Wayland access
   - --socket=wayland
