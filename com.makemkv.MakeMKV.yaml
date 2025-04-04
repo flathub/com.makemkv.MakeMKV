@@ -86,7 +86,7 @@ modules:
     sources:
       - type: archive
         url: https://www.makemkv.com/download/makemkv-oss-1.18.0.tar.gz
-        sha256: 2b922cfa40b507cd497607bfdb7a5053bb58ec2cdc587eef86b920bd7cf14313
+        sha256: 269c27efb92d4a66d57d7ba9864c4ebad9e0c0af7209ccd5be61e03c5c896c24
         x-checker-data:
           type: html
           url: https://www.makemkv.com/download
