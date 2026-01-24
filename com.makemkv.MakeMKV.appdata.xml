@@ -45,6 +45,19 @@
   <developer_name>GuinpinSoft inc</developer_name>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.18.3" date="2026-01-25">
+        <description>
+          <p>Changes:</p>
+          <ul>
+            <li>Updated LibreDrive and AACS runtime</li>
+            <li>Small improvements and bugfixes</li>
+          </ul>
+          <p>Notable bug fixes:</p>
+          <ul>
+            <li>Reading certain MKV files as input was very slow</li>
+          </ul>
+        </description>
+    </release>
     <release version="1.18.2" date="2025-09-25">
         <description>
           <p>Changes:</p>
