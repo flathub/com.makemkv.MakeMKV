@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
   <id>com.makemkv.MakeMKV</id>
   <launchable type="desktop-id">com.makemkv.MakeMKV.desktop</launchable>
   <name>MakeMKV</name>
   <metadata_license>CC0-1.0</metadata_license>
   <summary>DVD and Blu-ray to MKV converter and network streamer</summary>
   <description>
+    <p>**This is a community package of MakeMKV and not officially supported by GuinpinSoft inc.**</p>
     <p>
       MakeMKV is your one-click solution to convert video that you own
       into free and patents-unencumbered format that can be played
@@ -27,6 +28,11 @@
     </p>
   </description>
   <url type="homepage">https://www.makemkv.com</url>
+  <project_license>LicenseRef-proprietary AND GPL-2.0 AND LGPL-2.1-only</project_license>
+  <developer id="com.makemkv">
+  	<name>GuinpinSoft inc</name>
+  </developer>
+  <content_rating type="oars-1.1"/>
   <screenshots>
     <screenshot type="default">
       <caption>The makemkv main window</caption>
@@ -41,9 +47,6 @@
       <image type="source" width="1152" height="685">https://negativo17.org/appstream/makemkv-2.png</image>
     </screenshot>
   </screenshots>
-  <project_license>LicenseRef-proprietary AND GPL-2.0 AND LGPL-2.1-only</project_license>
-  <developer_name>GuinpinSoft inc</developer_name>
-  <content_rating type="oars-1.1"/>
   <releases>
     <release version="1.18.3" date="2026-01-25">
         <description>
