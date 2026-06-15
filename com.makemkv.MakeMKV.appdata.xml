@@ -48,6 +48,9 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.18.4" date="2026-06-15">
+      <description></description>
+    </release>
     <release version="1.18.3" date="2026-01-25">
         <description>
           <p>Changes:</p>

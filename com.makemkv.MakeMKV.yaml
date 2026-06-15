@@ -45,8 +45,8 @@ modules:
       - install -Dp -m 644 License.txt --target-directory=/app/share/licenses/com.makemkv.MakeMKV
     sources:
       - type: archive
-        url: https://www.makemkv.com/download/makemkv-oss-1.18.3.tar.gz
-        sha256: bc8bb084ae3aabcd503d5bb93efc273e046e4fd4663d39a9836ce0c047fee823
+        url: https://www.makemkv.com/download/makemkv-oss-1.18.4.tar.gz
+        sha256: 8590063648d42ec2a958b74573d7022f0f4c334e4e4fe7dd53b70c6e748ba453
         x-checker-data:
           type: html
           url: https://www.makemkv.com/download
@@ -65,8 +65,8 @@ modules:
       - install -Dp -m 644 src/eula_en_linux.txt --target-directory=/app/share/licenses/com.makemkv.MakeMKV
     sources:
       - type: archive
-        url: https://www.makemkv.com/download/makemkv-bin-1.18.3.tar.gz
-        sha256: c1ee720ae91b276a7c89be861146c5b934631831e8d6c8f453406435724e92bd
+        url: https://www.makemkv.com/download/makemkv-bin-1.18.4.tar.gz
+        sha256: cee56de0baa5531abed16bd862742d308d772b4ab4dae16ee865bf74f04a1608
         x-checker-data:
           type: html
           url: https://www.makemkv.com/download
