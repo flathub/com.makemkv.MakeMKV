@@ -48,6 +48,18 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.18.4" date="2026-06-15">
+      <description>
+          <p>Changes:</p>
+          <ul>
+            <li>Small improvements and bugfixes</li>
+          </ul>
+          <p>Notable bug fixes:</p>
+          <ul>
+            <li>Fixed linux armhf binary crash on certain architectures</li>
+          </ul>
+      </description>
+    </release>
     <release version="1.18.3" date="2026-01-25">
         <description>
           <p>Changes:</p>
