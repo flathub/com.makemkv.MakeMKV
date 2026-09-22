@@ -47,6 +47,15 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="2.0.0" date="2026-09-20">
+      <description>
+          <p>Changes:</p>
+          <ul>
+            <li>Almost no changes, just a version bump</li>
+            <li>Small improvements and bugfixes</li>
+          </ul>
+      </description>
+    </release>
     <release version="1.18.4" date="2026-06-15">
       <description>
           <p>Changes:</p>
