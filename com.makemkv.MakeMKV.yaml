@@ -1,9 +1,9 @@
 app-id: com.makemkv.MakeMKV
 runtime: org.kde.Platform
-runtime-version: 5.15-25.08
+runtime-version: 5.15-26.08
 sdk: org.kde.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk8
+  - org.freedesktop.Sdk.Extension.openjdk21
 finish-args:
   - --filesystem=~/.MakeMKV:create
   - --filesystem=xdg-videos
